@@ -39,7 +39,7 @@
       style="font-size: 20px"
     >
       <div class="container">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="../html/homepage.html">
           <img src="../img/minicooper-logo.png" alt="" />
         </a>
         <button
@@ -57,7 +57,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#"
+              <a class="nav-link" href="../html/homepage.html"
                 >Trang chủ <span class="sr-only">(current)</span></a
               >
             </li>
@@ -75,21 +75,21 @@
                 Các dòng xe Mini
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">MINI COOPER S 3 DOORS LCI</a>
+                <a class="dropdown-item" href="../html/mc-s3-door.html">MINI COOPER S 3 DOORS LCI</a>
                 <a class="dropdown-item" href="#">MINI COOPER S 5 DOORS LCI</a>
                 <a class="dropdown-item" href="#">MINI COOPER S ALL 4 LCI</a>
 
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Xem đầy đủ</a>
+                <a class="dropdown-item" href="#car-list">Xem đầy đủ</a>
               </div>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="#">Đăng kí lái thử</a>
+              <a class="nav-link" href="../html/signup.html">Đăng kí lái thử</a>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="#">Tính chi phí lăn bánh</a>
+              <a class="nav-link" href="../html/calc.html">Tính chi phí lăn bánh</a>
             </li>
 
             <li class="nav-item">
@@ -118,18 +118,24 @@
 
     <div class="container">
       <div class="special">
-        <div class="icon gift">
-          <i class="fas fa-gifts"></i>
-          <div class="des-icon">Đăng kí lái thử</div>
-        </div>
-        <div class="icon money">
-          <i class="fas fa-hand-holding-usd"></i>
-          <div class="des-icon">Mua trả góp</div>
-        </div>
-        <div class="icon contacr">
-          <i class="fas fa-address-book"></i>
-          <div class="des-icon">Liên hệ</div>
-        </div>
+        <a href="../html/signup.html">
+          <div class="icon gift">
+            <i class="fas fa-gifts"></i>
+            <div class="des-icon">Đăng kí lái thử</div>
+          </div>
+        </a>
+        <a href="../html/calc.html">
+          <div class="icon money">
+            <i class="fas fa-hand-holding-usd"></i>
+            <div class="des-icon">Mua trả góp</div>
+          </div>
+        </a>
+        <a href="../html/">
+          <div class="icon contacr">
+            <i class="fas fa-address-book"></i>
+            <div class="des-icon">Liên hệ</div>
+          </div>
+        </a>
       </div>
     </div>
     <div class="container">
@@ -140,7 +146,7 @@
       </div>
     </div>
 
-    <div class="container">
+    <div id="car-list" class="container">
       <div class="card-list">
         <!-- <div class="list list-col-1"> -->
         <div class="card-1">
@@ -306,6 +312,7 @@
             <img src="../img/factory.jpg" alt="" />
           </div>
           <div class="news-desc">
+            <h5><strong>Chào mừng bạn đến với Mini Việt Nam</strong></h5>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
             praesentium voluptas inventore ut quisquam illo, velit doloribus
             error corrupti explicabo, delectus voluptatum magni sapiente earum
@@ -317,6 +324,7 @@
             <img src="../img/factory.jpg" alt="" />
           </div>
           <div class="news-desc">
+            <h5><strong>Chào mừng bạn đến với Mini Việt Nam</strong></h5>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
             praesentium voluptas inventore ut quisquam illo, velit doloribus
             error corrupti explicabo, delectus voluptatum magni sapiente earum
@@ -328,6 +336,7 @@
             <img src="../img/factory.jpg" alt="" />
           </div>
           <div class="news-desc">
+            <h5><strong>Chào mừng bạn đến với Mini Việt Nam</strong></h5>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
             praesentium voluptas inventore ut quisquam illo, velit doloribus
             error corrupti explicabo, delectus voluptatum magni sapiente earum
@@ -336,66 +345,31 @@
         </div>
       </div>
     </div>
-  <!-- <a href="#" class="gotobtn"><i class="fa fa-arrow-circle-up" style="font-size:48px"></i></a> -->
+    <!-- <a href="#" class="gotobtn"><i class="fa fa-arrow-circle-up" style="font-size:48px"></i></a> -->
 
-    <!-- <div class="footer">
-
+    <div class="footer">
       <div class="container">
-        <div class="col-1">
-          
+        <div class="footer-col-1">
+          <h3>Tiện ích</h3>
+          <a href="">Đăng kí lái thử</a>
+          <a href="">Bảng giá</a>
+          <a href="">Dự toán chi phí</a>
+          <a href="">Tính trả gấp</a>
+          <a href="">Tin tức</a>
         </div>
-        <div class="col-2"></div>
-        <div class="col-3"></div>
+        <div class="footer-col-2">
+          <h3>Hotline</h3>
+          <a href="">Kinh doanh</a>
+          <a href="">Dịch vụ hỗ trợ</a>
+        </div>
+        <div class="footer-col-3">
+          <h3>Liên hệ</h3>
+          <a href=""><strong>Mini chính hãng</strong></a>
+          <a href=""><strong>Địa chỉ: <br> Mini Long Biên</strong>: số 1 Ngô Gia Tự, Long Biên, Hà Nội.</a>
+          <a href=""><strong>Hotline : </strong>0987 675 885</a>
+        </div>
       </div>
-    </div> -->
-    <div class="jumbotron" id="jum" style="height: auto; bottom: 0;background-color: black; font-family: 'Quicksand', sans-serif;">
-      <div class="container">
-          <div class="row">
-              <div class="col-sm" style="color: white;">
-                  <h2 class="lead" style="font-size: 160%;">About</h2>
-                  <p class="lead">About company</p>
-                  <p class="lead">About my partners</p>
-                  <p class="lead">About my team</p>
-              </div>
-              <div class="col-sm" style="color: white;">
-                  <h2 class="lead" style="font-size: 160%;">Contact&Co-operate</h2>
-                  <p class="lead">Phone number(anh Công): 1900 8888</p>
-                  <p class="lead">Phone number(anh Phương): 1900 6868</p>
-                  <p class="lead">Address: Số 3 Đường Cầu Giấy, Láng Thượng, Đống Đa, Hà Nội</p>
-                  <p class="lead">Gmail: congsieuquay.k17a@gmail.com</p>
-
-              </div>
-              <div class="col-sm" style="color: white;">
-                  <h2 class="lead" style="font-size: 160%;">Social Network</h2>
-                  <div class="social" style="display:flex;flex-direction:column;">
-                      <i class="fa fa-facebook-official" style="font-size:36px"></i>
-                      <br>
-                      <i class="fa fa-instagram" style="font-size:36px"></i>
-                      <br>
-                      <i class="fa fa-linkedin" style="font-size:36px"></i>
-                      <br>
-                      <i class="fa fa-youtube" style="font-size:36px"></i>
-                  </div>
-              </div>
-              <form id="question" style="color: white;">
-                  <div class="form-group">
-                      <label for="exampleInputEmail1">Email address</label>
-                      <input type="email" class="form-control" name="email" id="em" aria-describedby="emailHelp"
-                          placeholder="Enter email" style="border-radius:0%;">
-                      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
-                          else.</small>
-                  </div>
-                  <div class="form-group">
-                      <label>Your question:</label>
-                      <input type="text" height="400px" class="form-control" name="ques" id="ques"
-                          placeholder="Your question" style="border-radius:0%;">
-                  </div>
-                  <button type="submit" class="btn btn-light" id="form" style="border-radius:0%;">Send</button>
-              </form>
-          </div>
-      </div>
-  </div>
-  <!-- </div> -->
-  <script src="../js/script.js"></script>
+    </div>
+    <script src="../js/script.js"></script>
   </body>
 </html>

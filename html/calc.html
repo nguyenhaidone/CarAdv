@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mini Cooper Việt Nam</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-light"
+      id="navbar"
+      style="font-size: 20px"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="../img/minicooper-logo.png" alt="" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#"
+                >Trang chủ <span class="sr-only">(current)</span></a
+              >
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Các dòng xe Mini
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">MINI COOPER S 3 DOORS LCI</a>
+                <a class="dropdown-item" href="#">MINI COOPER S 5 DOORS LCI</a>
+                <a class="dropdown-item" href="#">MINI COOPER S ALL 4 LCI</a>
+
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Xem đầy đủ</a>
+              </div>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Đăng kí lái thử</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Tính chi phí lăn bánh</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Liên hệ</a>
+            </li>
+          </ul>
+          <!-- <form class="form-inline my-2 my-lg-0">
+            <input
+              class="form-control mr-sm-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+              Search
+            </button>
+          </form> -->
+        </div>
+      </div>
+    </nav>
+
+    //carousel
+    <video width="100%" height="auto" autoplay loop>
+      <source src="../img/mini-electric-stage-wide.mp4" type="video/mp4" />
+    </video>
+    <h1
+      style="
+        font-weight: 400;
+        text-transform: uppercase;
+        text-align: center;
+        margin: 20px;
+        color: orange;
+      "
+    >
+      Tính chi phí lăn bánh
+    </h1>
+    <div class="calc-form">
+      <div class="container">
+        <div class="list-cars">
+          <div id="s3-door" onclick="showFeeS3Door()">
+            <h4>MINI COOPER S 3-DOOR</h4>
+          </div>
+          <div id="s5-door" onclick="showFeeS5Door()">
+            <h4>MINI COOPER S 5-DOOR</h4>
+          </div>
+          <div id="s-convertible" onclick="showFeeSConvertible()">
+            <h4>MINI COOPER S CONVERTIBLE</h4>
+          </div>
+          <div id="s-clubman" onclick="showFeeSClubman()">
+            <h4>MINI COOPER S Clubman</h4>
+          </div>
+          <div id="s-clubman" onclick="showFeeSCountryman()">
+            <h4>MINI COOPER S COUNTRYMAN</h4>
+          </div>
+          <div id="o-lci" onclick="showFeeOLci()">
+            <h4>MINI ONE LCI</h4>
+          </div>
+          <div id="lci-3" onclick="showFeeLci3()">
+            <h4>MINI COOPER S LCI 3 DOOR</h4>
+          </div>
+          <div id="lci-5" onclick="showFeeLci5()">
+            <h4>MINI COOPER S LCI 5 DOOR</h4>
+          </div>
+          <div id="jcw3-st" onclick="showFeeJcw3St()">
+            <h4>MINI JCW 3(STANDARD)</h4>
+          </div>
+          <div id="jcw3-h" onclick="showFeeJcw3H()">
+            <h4>MINI JCW 3(HIGH)</h4>
+          </div>
+          <div id="country-st" onclick="showFeeCountrySt()">
+            <h4>MINI JCW COUNTRYMAN (STANDARD)</h4>
+          </div>
+          <div id="country-h" onclick="showFeeCountryH()">
+            <h4>MINI JCW COUNTRYMAN (HIGH)</h4>
+          </div>
+        </div>
+        <div class="calc-fee">
+          <div id="gia">
+            <p>Giá : <span id="showGia"></span></p>
+          </div>
+          <div id="ptb">
+            <p>Phí trước bạ(10%): <span id="showPtb"></span></p>
+          </div>
+          <div id="psd">
+            <p>Phí sử dụng đường bộ (01 năm): <span id="showPsd"></span></p>
+          </div>
+          <div id="bh">
+            <p>
+              Bảo hiểm trách nhiệm dân sự (01 năm): <span id="showBh"></span>
+            </p>
+          </div>
+          <div id="pdangky">
+            <p>Phí đăng ký biển số xe: <span id="showPdangky"></span></p>
+          </div>
+          <div id="pdangkiem">
+            <p>Phí đăng kiểm xe: <span id="showPdangkiem"></span></p>
+          </div>
+          <div id="total">
+            <p>Tổng cộng (phí + xe): <span id="showTotal"></span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="notice">
+      <div class="container">
+        <p>
+          <strong>Lưu ý: </strong>Công cụ ước tính giá chỉ mang tính chất tham
+          khảo, Quý khách vui lòng liên hệ trực tiếp để có giá chính xác
+        </p>
+      </div>
+    </div>
+    <div class="move-on-top">
+      <a href="#"><i class="fas fa-arrow-circle-up"></i></a>
+    </div>
+    <div class="introduction">
+      <div class="container">
+        <div class="img-introduc">
+          <img src="../img/logo.jpg" alt="" />
+        </div>
+        <div class="img-desc">
+          <p>EXPLORE THE WORLD OF MINI</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- <a href="#" class="gotobtn"><i class="fa fa-arrow-circle-up" style="font-size:48px"></i></a> -->
+
+    <div class="footer">
+      <div class="container">
+        <div class="footer-col-1">
+          <h3>Tiện ích</h3>
+          <a href="">Đăng kí lái thử</a>
+          <a href="">Bảng giá</a>
+          <a href="">Dự toán chi phí</a>
+          <a href="">Tính trả gấp</a>
+          <a href="">Tin tức</a>
+        </div>
+        <div class="footer-col-2">
+          <h3>Hotline</h3>
+          <a href="">Kinh doanh</a>
+          <a href="">Dịch vụ hỗ trợ</a>
+        </div>
+        <div class="footer-col-3">
+          <h3>Liên hệ</h3>
+          <a href=""><strong>Mini chính hãng</strong></a>
+          <a href=""
+            ><strong
+              >Địa chỉ: <br />
+              Mini Long Biên</strong
+            >: số 1 Ngô Gia Tự, Long Biên, Hà Nội.</a
+          >
+          <a href=""><strong>Hotline : </strong>0987 675 885</a>
+        </div>
+      </div>
+    </div>
+    <script src="../js/script.js"></script>
+  </body>
+</html>
