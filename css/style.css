@@ -82,6 +82,12 @@ html{
     flex-wrap: wrap;
     margin-bottom: 20px;
 }
+.card-list a{
+    color: black;
+}
+.card-list a:hover{
+    text-decoration: none;
+}
 .card-list .card{
     margin: 10px;
     width: 400px;
@@ -384,6 +390,7 @@ html{
 }
 
 .send-form .container form{
+    width: 50%;
     display: flex;
     flex-direction: column;
 }
@@ -415,6 +422,7 @@ html{
 }
 .send-form .container form .main div:nth-child(2){
     margin: 20px;
+    display: none;
 }
 .send-form .container form .main div:nth-child(2) .option input{
     margin-right: 20px;
@@ -433,6 +441,7 @@ html{
     padding: 20px;
     
 }
+
 .send-form .container form textarea{
     outline: none;
     padding: 10px;
