@@ -422,7 +422,6 @@ html{
 }
 .send-form .container form .main div:nth-child(2){
     margin: 20px;
-    display: none;
 }
 .send-form .container form .main div:nth-child(2) .option input{
     margin-right: 20px;
