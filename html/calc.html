@@ -36,7 +36,9 @@
     <nav
       class="navbar navbar-expand-lg navbar-light bg-light"
       id="navbar"
-      style="font-size: 20px"
+      style="font-size: 14px;
+      text-transform: uppercase;
+      padding: 10px;"
     >
       <div class="container">
         <a class="navbar-brand" href="../html/homepage.html">
@@ -56,12 +58,15 @@
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
+            
             <li class="nav-item active">
               <a class="nav-link" href="../html/homepage.html"
                 >Trang chủ <span class="sr-only">(current)</span></a
               >
             </li>
-
+            <li class="nav-item">
+              <a class="nav-link" href="../html/homepage.html">Giới thiệu</a>
+            </li>
             <li class="nav-item dropdown">
               <a
                 class="nav-link dropdown-toggle"
@@ -72,7 +77,7 @@
                 aria-haspopup="true"
                 aria-expanded="false"
               >
-                Các dòng xe Mini
+                Dòng sản phẩm
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <a class="dropdown-item" href="../html/mc-s3-door.html"
@@ -87,7 +92,7 @@
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="../html/signup.html">Đăng kí lái thử</a>
+              <a class="nav-link" href="../html/signup.html">Bảng giá</a>
             </li>
 
             <li class="nav-item">
@@ -95,9 +100,19 @@
                 >Tính chi phí lăn bánh</a
               >
             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../html/contact.html">New & Story</a>
+            </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="../html/contact.html">Liên hệ</a>
+              <a class="nav-link" href="../html/contact.html">Liên hệ</a>
+            </li>
+
+            <li class="nav-item"
+            style="margin-left:20px">
+              Kinh doanh: 0984581159
+              <br>
+              Dịch vụ: 0984581159
             </li>
           </ul>
           <!-- <form class="form-inline my-2 my-lg-0">
@@ -116,9 +131,7 @@
     </nav>
 
     //carousel
-    <video width="100%" height="auto" autoplay loop>
-      <source src="../img/mini-electric-stage-wide.mp4" type="video/mp4" />
-    </video>
+    
     <h1
       style="
         font-weight: 400;
@@ -126,11 +139,12 @@
         text-align: center;
         margin: 20px;
         color: orange;
+        margin-top: 120px;
       "
     >
       Tính chi phí lăn bánh
     </h1>
-    <div class="calc-form">
+    <div class="calc-form" style="top:20vh;">
       <div class="container">
         <div class="list-cars">
           <div id="s3-door" onclick="showFeeS3Door()">
