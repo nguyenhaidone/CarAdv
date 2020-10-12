@@ -5,6 +5,7 @@
 html {
   scroll-behavior: smooth;
 }
+
 #navbar {
   opacity: 1;
   background: transparent;
@@ -14,6 +15,15 @@ html {
   z-index: 1000;
   width: 100%;
   box-shadow: 0px 5px 15px #000000;
+}
+
+
+#navbar div div ul li{
+  padding-left: 10px;
+}
+
+#navbar div div ul li a{
+  font-size: 13px;
 }
 .carousel {
   top: 40px;
@@ -109,8 +119,8 @@ html {
   top: 150px;
 }
 .social-network div {
-  width: 50px;
-  height: 50px;
+  width: 55px;
+  height: 55px;
   margin: 10px;
   display: flex;
   justify-content: center;
@@ -120,7 +130,7 @@ html {
   cursor: pointer;
 }
 .social-network div i {
-  font-size: 22px;
+  font-size: 25px;
 }
 .social-network div a {
     color: #ffffff;
