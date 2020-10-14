@@ -1,121 +1,377 @@
+
+
 function showFeeS3Door(){
-  document.getElementById("showGia").innerText="	1,819,000,000đ";
-  document.getElementById("showPtb").innerText="	181,900,000đ";
-  document.getElementById("showPsd").innerText="	1,560,000đ";
-  document.getElementById("showBh").innerText="	480,000đ";
-  document.getElementById("showPdangky").innerText="	20,000,000đ";
-  document.getElementById("showPdangkiem").innerText="	340,000đ";
-  document.getElementById("pdikem").innerText="2.000.000đ";
-  document.getElementById("showTotal").innerText="	1,959,330,000đ";
+  var miniCar = [{
+    ten:"",
+    gia:0,
+    phiTruocBa:0,
+    phiSuDung:0,
+    phiBaoHiem:0,
+    phiDangKi:0,
+    phiDangKiem:0,
+    phiDiKem:0,
+    tongGia:0,
+  }];
+  
+  miniCar[0].ten="Mini S3 Door";
+  miniCar[0].gia = 1819000000;
+  miniCar[0].phiTruocBa=miniCar[0].gia*10/100;
+  miniCar[0].phiSuDung= 1560000;
+  miniCar[0].phiBaoHiem= 480000;
+  miniCar[0].phiDangKi= 20000000;
+  miniCar[0].phiDangKiem=340000;
+  miniCar[0].phiDiKem=2000000;
+  miniCar[0].tongGia= miniCar[0].gia+miniCar[0].phiTruocBa
+  +miniCar[0].phiSuDung+miniCar[0].phiBaoHiem
+  +miniCar[0].phiDangKi+miniCar[0].phiDangKiem+miniCar[0].phiDiKem ;
+  document.getElementById("showGia").innerText=miniCar[0].gia ;
+  document.getElementById("showPtb").innerText=miniCar[0].phiTruocBa;
+  document.getElementById("showPsd").innerText=miniCar[0].phiSuDung;
+  document.getElementById("showBh").innerText=miniCar[0].phiBaoHiem;
+  document.getElementById("showPdangky").innerText=miniCar[0].phiDangKi;
+  document.getElementById("showPdangkiem").innerText=miniCar[0].phiDangKiem;
+  document.getElementById("pdikem").innerText=miniCar[0].phiDiKem;
+  document.getElementById("showTotal").innerText=miniCar[0].tongGia;
 }
+
 
 
 function showFeeS5Door(){
-  document.getElementById("showGia").innerText="1,799,000,000đ";
-  document.getElementById("showPtb").innerText="179,900,000đ";
-  document.getElementById("showPsd").innerText="	1,560,000đ";
-  document.getElementById("showBh").innerText="	480,000đ";
-  document.getElementById("showPdangky").innerText="	20,000,000đ";
-  document.getElementById("showPdangkiem").innerText="	340,000đ";
-  document.getElementById("pdikem").innerText="2.000.000đ";
-  document.getElementById("showTotal").innerText="2,014,330,000đ";
+  var miniCar = [{
+    ten:"",
+    gia:0,
+    phiTruocBa:0,
+    phiSuDung:0,
+    phiBaoHiem:0,
+    phiDangKi:0,
+    phiDangKiem:0,
+    phiDiKem:0,
+    tongGia:0,
+  }];
+  
+  miniCar[0].ten="Mini S5 Door";
+  miniCar[0].gia = 1799000000;
+  miniCar[0].phiTruocBa=miniCar[0].gia*10/100;
+  miniCar[0].phiSuDung= 1560000;
+  miniCar[0].phiBaoHiem= 480000;
+  miniCar[0].phiDangKi= 20000000;
+  miniCar[0].phiDangKiem=340000;
+  miniCar[0].phiDiKem=2000000;
+  miniCar[0].tongGia= miniCar[0].gia+miniCar[0].phiTruocBa
+  +miniCar[0].phiSuDung+miniCar[0].phiBaoHiem
+  +miniCar[0].phiDangKi+miniCar[0].phiDangKiem+miniCar[0].phiDiKem ;
+  document.getElementById("showGia").innerText=miniCar[0].gia ;
+  document.getElementById("showPtb").innerText=miniCar[0].phiTruocBa;
+  document.getElementById("showPsd").innerText=miniCar[0].phiSuDung;
+  document.getElementById("showBh").innerText=miniCar[0].phiBaoHiem;
+  document.getElementById("showPdangky").innerText=miniCar[0].phiDangKi;
+  document.getElementById("showPdangkiem").innerText=miniCar[0].phiDangKiem;
+  document.getElementById("pdikem").innerText=miniCar[0].phiDiKem;
+  document.getElementById("showTotal").innerText=miniCar[0].tongGia;
 }
 
 function showFeeSConvertible(){
-  document.getElementById("showGia").innerText="2,189,000,000đ";
-  document.getElementById("showPtb").innerText="218,900,000đ";
-  document.getElementById("showPsd").innerText="	1,560,000đ";
-  document.getElementById("showBh").innerText="	480,000đ";
-  document.getElementById("showPdangky").innerText="	20,000,000đ";
-  document.getElementById("showPdangkiem").innerText="	340,000đ";
-  document.getElementById("pdikem").innerText="2.000.000đ";
-  document.getElementById("showTotal").innerText="2,421,330,000đ";
+  var miniCar = [{
+    ten:"",
+    gia:0,
+    phiTruocBa:0,
+    phiSuDung:0,
+    phiBaoHiem:0,
+    phiDangKi:0,
+    phiDangKiem:0,
+    phiDiKem:0,
+    tongGia:0,
+  }];
+  
+  miniCar[0].ten="Mini S Convertible";
+  miniCar[0].gia = 2189000000;
+  miniCar[0].phiTruocBa=miniCar[0].gia*10/100;
+  miniCar[0].phiSuDung= 1560000;
+  miniCar[0].phiBaoHiem= 480000;
+  miniCar[0].phiDangKi= 20000000;
+  miniCar[0].phiDangKiem=340000;
+  miniCar[0].phiDiKem=2000000;
+  miniCar[0].tongGia= miniCar[0].gia+miniCar[0].phiTruocBa
+  +miniCar[0].phiSuDung+miniCar[0].phiBaoHiem
+  +miniCar[0].phiDangKi+miniCar[0].phiDangKiem+miniCar[0].phiDiKem ;
+  document.getElementById("showGia").innerText=miniCar[0].gia ;
+  document.getElementById("showPtb").innerText=miniCar[0].phiTruocBa;
+  document.getElementById("showPsd").innerText=miniCar[0].phiSuDung;
+  document.getElementById("showBh").innerText=miniCar[0].phiBaoHiem;
+  document.getElementById("showPdangky").innerText=miniCar[0].phiDangKi;
+  document.getElementById("showPdangkiem").innerText=miniCar[0].phiDangKiem;
+  document.getElementById("pdikem").innerText=miniCar[0].phiDiKem;
+  document.getElementById("showTotal").innerText=miniCar[0].tongGia;
 }
 
 function showFeeSClubman(){
-  document.getElementById("showGia").innerText="2,249,000,000đ";
-  document.getElementById("showPtb").innerText="224,900,000đ";
-  document.getElementById("showPsd").innerText="	1,560,000đ";
-  document.getElementById("showBh").innerText="	480,000đ";
-  document.getElementById("showPdangky").innerText="	20,000,000đ";
-  document.getElementById("showPdangkiem").innerText="	340,000đ";
-  document.getElementById("pdikem").innerText="2.000.000đ";
-  document.getElementById("showTotal").innerText="2,487,330,000đ";
+  var miniCar = [{
+    ten:"",
+    gia:0,
+    phiTruocBa:0,
+    phiSuDung:0,
+    phiBaoHiem:0,
+    phiDangKi:0,
+    phiDangKiem:0,
+    phiDiKem:0,
+    tongGia:0,
+  }];
+  
+  miniCar[0].ten="Mini S Clubman";
+  miniCar[0].gia = 2249000000;
+  miniCar[0].phiTruocBa=miniCar[0].gia*10/100;
+  miniCar[0].phiSuDung= 1560000;
+  miniCar[0].phiBaoHiem= 480000;
+  miniCar[0].phiDangKi= 20000000;
+  miniCar[0].phiDangKiem=340000;
+  miniCar[0].phiDiKem=2000000;
+  miniCar[0].tongGia= miniCar[0].gia+miniCar[0].phiTruocBa
+  +miniCar[0].phiSuDung+miniCar[0].phiBaoHiem
+  +miniCar[0].phiDangKi+miniCar[0].phiDangKiem+miniCar[0].phiDiKem ;
+  document.getElementById("showGia").innerText=miniCar[0].gia ;
+  document.getElementById("showPtb").innerText=miniCar[0].phiTruocBa;
+  document.getElementById("showPsd").innerText=miniCar[0].phiSuDung;
+  document.getElementById("showBh").innerText=miniCar[0].phiBaoHiem;
+  document.getElementById("showPdangky").innerText=miniCar[0].phiDangKi;
+  document.getElementById("showPdangkiem").innerText=miniCar[0].phiDangKiem;
+  document.getElementById("pdikem").innerText=miniCar[0].phiDiKem;
+  document.getElementById("showTotal").innerText=miniCar[0].tongGia;
 }
 
 function showFeeSCountryman(){
-  document.getElementById("showGia").innerText="1,589,000,000đ";
-  document.getElementById("showPtb").innerText="158,900,000đ";
-  document.getElementById("showPsd").innerText="	1,560,000đ";
-  document.getElementById("showBh").innerText="	480,000đ";
-  document.getElementById("showPdangky").innerText="	20,000,000đ";
-  document.getElementById("showPdangkiem").innerText="	340,000đ";
-  document.getElementById("pdikem").innerText="2.000.000đ";
-  document.getElementById("showTotal").innerText="1,761,330,000đ";
+  var miniCar = [{
+    ten:"",
+    gia:0,
+    phiTruocBa:0,
+    phiSuDung:0,
+    phiBaoHiem:0,
+    phiDangKi:0,
+    phiDangKiem:0,
+    phiDiKem:0,
+    tongGia:0,
+  }];
+  
+  miniCar[0].ten="Mini S Countryman";
+  miniCar[0].gia = 1589000000;
+  miniCar[0].phiTruocBa=miniCar[0].gia*10/100;
+  miniCar[0].phiSuDung= 1560000;
+  miniCar[0].phiBaoHiem= 480000;
+  miniCar[0].phiDangKi= 20000000;
+  miniCar[0].phiDangKiem=340000;
+  miniCar[0].phiDiKem=2000000;
+  miniCar[0].tongGia= miniCar[0].gia+miniCar[0].phiTruocBa
+  +miniCar[0].phiSuDung+miniCar[0].phiBaoHiem
+  +miniCar[0].phiDangKi+miniCar[0].phiDangKiem+miniCar[0].phiDiKem ;
+  document.getElementById("showGia").innerText=miniCar[0].gia ;
+  document.getElementById("showPtb").innerText=miniCar[0].phiTruocBa;
+  document.getElementById("showPsd").innerText=miniCar[0].phiSuDung;
+  document.getElementById("showBh").innerText=miniCar[0].phiBaoHiem;
+  document.getElementById("showPdangky").innerText=miniCar[0].phiDangKi;
+  document.getElementById("showPdangkiem").innerText=miniCar[0].phiDangKiem;
+  document.getElementById("pdikem").innerText=miniCar[0].phiDiKem;
+  document.getElementById("showTotal").innerText=miniCar[0].tongGia;
 }
 
 function showFeeOLci(){
-  document.getElementById("showGia").innerText="1,529,000,000đ";
-  document.getElementById("showPtb").innerText="152,900,000đ";
-  document.getElementById("showPsd").innerText="1,560,000đ";
-  document.getElementById("showBh").innerText="	480,000đ";
-  document.getElementById("showPdangky").innerText="	20,000,000đ";
-  document.getElementById("showPdangkiem").innerText="	340,000đ";
-  document.getElementById("pdikem").innerText="2.000.000đ";
-  document.getElementById("showTotal").innerText="1,695,330,000đ";
+  var miniCar = [{
+    ten:"",
+    gia:0,
+    phiTruocBa:0,
+    phiSuDung:0,
+    phiBaoHiem:0,
+    phiDangKi:0,
+    phiDangKiem:0,
+    phiDiKem:0,
+    tongGia:0,
+  }];
+  
+  miniCar[0].ten="Mini One LCI";
+  miniCar[0].gia = 1529000000;
+  miniCar[0].phiTruocBa=miniCar[0].gia*10/100;
+  miniCar[0].phiSuDung= 1560000;
+  miniCar[0].phiBaoHiem= 480000;
+  miniCar[0].phiDangKi= 20000000;
+  miniCar[0].phiDangKiem=340000;
+  miniCar[0].phiDiKem=2000000;
+  miniCar[0].tongGia= miniCar[0].gia+miniCar[0].phiTruocBa
+  +miniCar[0].phiSuDung+miniCar[0].phiBaoHiem
+  +miniCar[0].phiDangKi+miniCar[0].phiDangKiem+miniCar[0].phiDiKem ;
+  document.getElementById("showGia").innerText=miniCar[0].gia ;
+  document.getElementById("showPtb").innerText=miniCar[0].phiTruocBa;
+  document.getElementById("showPsd").innerText=miniCar[0].phiSuDung;
+  document.getElementById("showBh").innerText=miniCar[0].phiBaoHiem;
+  document.getElementById("showPdangky").innerText=miniCar[0].phiDangKi;
+  document.getElementById("showPdangkiem").innerText=miniCar[0].phiDangKiem;
+  document.getElementById("pdikem").innerText=miniCar[0].phiDiKem;
+  document.getElementById("showTotal").innerText=miniCar[0].tongGia;
 }
 
 function showFeeLci3(){
-  document.getElementById("showGia").innerText="1,969,000,000đ";
-  document.getElementById("showPtb").innerText="196,900,000đ";
-  document.getElementById("showPsd").innerText="1,560,000đ";
-  document.getElementById("showBh").innerText="	480,000đ";
-  document.getElementById("showPdangky").innerText="	20,000,000đ";
-  document.getElementById("showPdangkiem").innerText="	340,000đ";
-  document.getElementById("pdikem").innerText="2.000.000đ";
-  document.getElementById("showTotal").innerText="2,179,330,000đ";
+  var miniCar = [{
+    ten:"",
+    gia:0,
+    phiTruocBa:0,
+    phiSuDung:0,
+    phiBaoHiem:0,
+    phiDangKi:0,
+    phiDangKiem:0,
+    phiDiKem:0,
+    tongGia:0,
+  }];
+  
+  miniCar[0].ten="Mini JCW 3";
+  miniCar[0].gia = 1969000000;
+  miniCar[0].phiTruocBa=miniCar[0].gia*10/100;
+  miniCar[0].phiSuDung= 1560000;
+  miniCar[0].phiBaoHiem= 480000;
+  miniCar[0].phiDangKi= 20000000;
+  miniCar[0].phiDangKiem=340000;
+  miniCar[0].phiDiKem=2000000;
+  miniCar[0].tongGia= miniCar[0].gia+miniCar[0].phiTruocBa
+  +miniCar[0].phiSuDung+miniCar[0].phiBaoHiem
+  +miniCar[0].phiDangKi+miniCar[0].phiDangKiem+miniCar[0].phiDiKem ;
+  document.getElementById("showGia").innerText=miniCar[0].gia ;
+  document.getElementById("showPtb").innerText=miniCar[0].phiTruocBa;
+  document.getElementById("showPsd").innerText=miniCar[0].phiSuDung;
+  document.getElementById("showBh").innerText=miniCar[0].phiBaoHiem;
+  document.getElementById("showPdangky").innerText=miniCar[0].phiDangKi;
+  document.getElementById("showPdangkiem").innerText=miniCar[0].phiDangKiem;
+  document.getElementById("pdikem").innerText=miniCar[0].phiDiKem;
+  document.getElementById("showTotal").innerText=miniCar[0].tongGia;
 }
 
-function showFeeLci5(){
-  document.getElementById("showGia").innerText="2,049,000,000đ";
-  document.getElementById("showPtb").innerText="204,900,000đ";
-  document.getElementById("showPsd").innerText="1,560,000đ";
-  document.getElementById("showBh").innerText="	480,000đ";
-  document.getElementById("showPdangky").innerText="	20,000,000đ";
-  document.getElementById("showPdangkiem").innerText="	340,000đ";
-  document.getElementById("pdikem").innerText="2.000.000đ";
-  document.getElementById("showTotal").innerText="2,267,330,000đ";
+function showFeeJcw3H(){
+  var miniCar = [{
+    ten:"",
+    gia:0,
+    phiTruocBa:0,
+    phiSuDung:0,
+    phiBaoHiem:0,
+    phiDangKi:0,
+    phiDangKiem:0,
+    phiDiKem:0,
+    tongGia:0,
+  }];
+  
+  miniCar[0].ten="Mini JCW CLUBMAN";
+  miniCar[0].gia = 2049000000;
+  miniCar[0].phiTruocBa=miniCar[0].gia*10/100;
+  miniCar[0].phiSuDung= 1560000;
+  miniCar[0].phiBaoHiem= 480000;
+  miniCar[0].phiDangKi= 20000000;
+  miniCar[0].phiDangKiem=340000;
+  miniCar[0].phiDiKem=2000000;
+  miniCar[0].tongGia= miniCar[0].gia+miniCar[0].phiTruocBa
+  +miniCar[0].phiSuDung+miniCar[0].phiBaoHiem
+  +miniCar[0].phiDangKi+miniCar[0].phiDangKiem+miniCar[0].phiDiKem ;
+  document.getElementById("showGia").innerText=miniCar[0].gia ;
+  document.getElementById("showPtb").innerText=miniCar[0].phiTruocBa;
+  document.getElementById("showPsd").innerText=miniCar[0].phiSuDung;
+  document.getElementById("showBh").innerText=miniCar[0].phiBaoHiem;
+  document.getElementById("showPdangky").innerText=miniCar[0].phiDangKi;
+  document.getElementById("showPdangkiem").innerText=miniCar[0].phiDangKiem;
+  document.getElementById("pdikem").innerText=miniCar[0].phiDiKem;
+  document.getElementById("showTotal").innerText=miniCar[0].tongGia;
 }
 
 function showFeeJcw3St(){
-  document.getElementById("showGia").innerText="	2,329,000,000đ";
-  document.getElementById("showPtb").innerText="232,900,000đ";
-  document.getElementById("showPsd").innerText="1,560,000đ";
-  document.getElementById("showBh").innerText="	480,000đ";
-  document.getElementById("showPdangky").innerText="	20,000,000đ";
-  document.getElementById("showPdangkiem").innerText="	340,000đ";
-  document.getElementById("pdikem").innerText="2.000.000đ";
-  document.getElementById("showTotal").innerText="2,575,330,000đ";
+  var miniCar = [{
+    ten:"",
+    gia:0,
+    phiTruocBa:0,
+    phiSuDung:0,
+    phiBaoHiem:0,
+    phiDangKi:0,
+    phiDangKiem:0,
+    phiDiKem:0,
+    tongGia:0,
+  }];
+  
+  miniCar[0].ten="Mini JCW CLUBMAN";
+  miniCar[0].gia = 2329000000;
+  miniCar[0].phiTruocBa=miniCar[0].gia*10/100;
+  miniCar[0].phiSuDung= 1560000;
+  miniCar[0].phiBaoHiem= 480000;
+  miniCar[0].phiDangKi= 20000000;
+  miniCar[0].phiDangKiem=340000;
+  miniCar[0].phiDiKem=2000000;
+  miniCar[0].tongGia= miniCar[0].gia+miniCar[0].phiTruocBa
+  +miniCar[0].phiSuDung+miniCar[0].phiBaoHiem
+  +miniCar[0].phiDangKi+miniCar[0].phiDangKiem+miniCar[0].phiDiKem ;
+  document.getElementById("showGia").innerText=miniCar[0].gia ;
+  document.getElementById("showPtb").innerText=miniCar[0].phiTruocBa;
+  document.getElementById("showPsd").innerText=miniCar[0].phiSuDung;
+  document.getElementById("showBh").innerText=miniCar[0].phiBaoHiem;
+  document.getElementById("showPdangky").innerText=miniCar[0].phiDangKi;
+  document.getElementById("showPdangkiem").innerText=miniCar[0].phiDangKiem;
+  document.getElementById("pdikem").innerText=miniCar[0].phiDiKem;
+  document.getElementById("showTotal").innerText=miniCar[0].tongGia;
 }
 
 function showFeeCountrySt(){
-  document.getElementById("showGia").innerText="2,699,000,000đ";
-  document.getElementById("showPtb").innerText="269,900,000đ";
-  document.getElementById("showPsd").innerText="1,560,000đ";
-  document.getElementById("showBh").innerText="	480,000đ";
-  document.getElementById("showPdangky").innerText="	20,000,000đ";
-  document.getElementById("showPdangkiem").innerText="	340,000đ";
-  document.getElementById("pdikem").innerText="2.000.000đ";
-  document.getElementById("showTotal").innerText="2,982,330,000đ";
+  var miniCar = [{
+    ten:"",
+    gia:0,
+    phiTruocBa:0,
+    phiSuDung:0,
+    phiBaoHiem:0,
+    phiDangKi:0,
+    phiDangKiem:0,
+    phiDiKem:0,
+    tongGia:0,
+  }];
+  
+  miniCar[0].ten="Mini JCW CONVERTIBLE";
+  miniCar[0].gia = 2699000000;
+  miniCar[0].phiTruocBa=miniCar[0].gia*10/100;
+  miniCar[0].phiSuDung= 1560000;
+  miniCar[0].phiBaoHiem= 480000;
+  miniCar[0].phiDangKi= 20000000;
+  miniCar[0].phiDangKiem=340000;
+  miniCar[0].phiDiKem=2000000;
+  miniCar[0].tongGia= miniCar[0].gia+miniCar[0].phiTruocBa
+  +miniCar[0].phiSuDung+miniCar[0].phiBaoHiem
+  +miniCar[0].phiDangKi+miniCar[0].phiDangKiem+miniCar[0].phiDiKem ;
+  document.getElementById("showGia").innerText=miniCar[0].gia ;
+  document.getElementById("showPtb").innerText=miniCar[0].phiTruocBa;
+  document.getElementById("showPsd").innerText=miniCar[0].phiSuDung;
+  document.getElementById("showBh").innerText=miniCar[0].phiBaoHiem;
+  document.getElementById("showPdangky").innerText=miniCar[0].phiDangKi;
+  document.getElementById("showPdangkiem").innerText=miniCar[0].phiDangKiem;
+  document.getElementById("pdikem").innerText=miniCar[0].phiDiKem;
+  document.getElementById("showTotal").innerText=miniCar[0].tongGia;
 }
 
 function showFeeCountryH(){
-  document.getElementById("showGia").innerText="2,719,000,000đ";
-  document.getElementById("showPtb").innerText="271,900,000đ";
-  document.getElementById("showPsd").innerText="1,560,000đ";
-  document.getElementById("showBh").innerText="	480,000đ";
-  document.getElementById("showPdangky").innerText="	20,000,000đ";
-  document.getElementById("showPdangkiem").innerText="	340,000đ";
-  document.getElementById("pdikem").innerText="2.000.000đ";
-  document.getElementById("showTotal").innerText="3,004,330,000đ";
+  var miniCar = [{
+    ten:"",
+    gia:0,
+    phiTruocBa:0,
+    phiSuDung:0,
+    phiBaoHiem:0,
+    phiDangKi:0,
+    phiDangKiem:0,
+    phiDiKem:0,
+    tongGia:0,
+  }];
+  
+  miniCar[0].ten="Mini JCW COUNTRYMAN";
+  miniCar[0].gia = 2719000000;
+  miniCar[0].phiTruocBa=miniCar[0].gia*10/100;
+  miniCar[0].phiSuDung= 1560000;
+  miniCar[0].phiBaoHiem= 480000;
+  miniCar[0].phiDangKi= 20000000;
+  miniCar[0].phiDangKiem=340000;
+  miniCar[0].phiDiKem=2000000;
+  miniCar[0].tongGia= miniCar[0].gia+miniCar[0].phiTruocBa
+  +miniCar[0].phiSuDung+miniCar[0].phiBaoHiem
+  +miniCar[0].phiDangKi+miniCar[0].phiDangKiem+miniCar[0].phiDiKem ;
+  document.getElementById("showGia").innerText=miniCar[0].gia ;
+  document.getElementById("showPtb").innerText=miniCar[0].phiTruocBa;
+  document.getElementById("showPsd").innerText=miniCar[0].phiSuDung;
+  document.getElementById("showBh").innerText=miniCar[0].phiBaoHiem;
+  document.getElementById("showPdangky").innerText=miniCar[0].phiDangKi;
+  document.getElementById("showPdangkiem").innerText=miniCar[0].phiDangKiem;
+  document.getElementById("pdikem").innerText=miniCar[0].phiDiKem;
+  document.getElementById("showTotal").innerText=miniCar[0].tongGia;
 }
