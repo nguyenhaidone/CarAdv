@@ -15,7 +15,7 @@ function showFeeS3Door(){
   
   miniCar[0].ten="Mini S3 Door";
   miniCar[0].gia = 1819000000;
-  miniCar[0].phiTruocBa=miniCar[0].gia*10/100;
+  miniCar[0].phiTruocBa=miniCar[0].gia*12/100;
   miniCar[0].phiSuDung= 1560000;
   miniCar[0].phiBaoHiem= 480000;
   miniCar[0].phiDangKi= 20000000;
@@ -51,7 +51,7 @@ function showFeeS5Door(){
   
   miniCar[0].ten="Mini S5 Door";
   miniCar[0].gia = 1799000000;
-  miniCar[0].phiTruocBa=miniCar[0].gia*10/100;
+  miniCar[0].phiTruocBa=miniCar[0].gia*12/100;
   miniCar[0].phiSuDung= 1560000;
   miniCar[0].phiBaoHiem= 480000;
   miniCar[0].phiDangKi= 20000000;
@@ -85,7 +85,7 @@ function showFeeSConvertible(){
   
   miniCar[0].ten="Mini S Convertible";
   miniCar[0].gia = 2189000000;
-  miniCar[0].phiTruocBa=miniCar[0].gia*10/100;
+  miniCar[0].phiTruocBa=miniCar[0].gia*12/100;
   miniCar[0].phiSuDung= 1560000;
   miniCar[0].phiBaoHiem= 480000;
   miniCar[0].phiDangKi= 20000000;
@@ -119,7 +119,7 @@ function showFeeSClubman(){
   
   miniCar[0].ten="Mini S Clubman";
   miniCar[0].gia = 2249000000;
-  miniCar[0].phiTruocBa=miniCar[0].gia*10/100;
+  miniCar[0].phiTruocBa=miniCar[0].gia*12/100;
   miniCar[0].phiSuDung= 1560000;
   miniCar[0].phiBaoHiem= 480000;
   miniCar[0].phiDangKi= 20000000;
@@ -153,7 +153,7 @@ function showFeeSCountryman(){
   
   miniCar[0].ten="Mini S Countryman";
   miniCar[0].gia = 1589000000;
-  miniCar[0].phiTruocBa=miniCar[0].gia*10/100;
+  miniCar[0].phiTruocBa=miniCar[0].gia*12/100;
   miniCar[0].phiSuDung= 1560000;
   miniCar[0].phiBaoHiem= 480000;
   miniCar[0].phiDangKi= 20000000;
@@ -187,7 +187,7 @@ function showFeeOLci(){
   
   miniCar[0].ten="Mini One LCI";
   miniCar[0].gia = 1529000000;
-  miniCar[0].phiTruocBa=miniCar[0].gia*10/100;
+  miniCar[0].phiTruocBa=miniCar[0].gia*12/100;
   miniCar[0].phiSuDung= 1560000;
   miniCar[0].phiBaoHiem= 480000;
   miniCar[0].phiDangKi= 20000000;
@@ -221,7 +221,7 @@ function showFeeLci3(){
   
   miniCar[0].ten="Mini JCW 3";
   miniCar[0].gia = 1969000000;
-  miniCar[0].phiTruocBa=miniCar[0].gia*10/100;
+  miniCar[0].phiTruocBa=miniCar[0].gia*12/100;
   miniCar[0].phiSuDung= 1560000;
   miniCar[0].phiBaoHiem= 480000;
   miniCar[0].phiDangKi= 20000000;
@@ -255,7 +255,7 @@ function showFeeJcw3H(){
   
   miniCar[0].ten="Mini JCW CLUBMAN";
   miniCar[0].gia = 2049000000;
-  miniCar[0].phiTruocBa=miniCar[0].gia*10/100;
+  miniCar[0].phiTruocBa=miniCar[0].gia*12/100;
   miniCar[0].phiSuDung= 1560000;
   miniCar[0].phiBaoHiem= 480000;
   miniCar[0].phiDangKi= 20000000;
@@ -289,7 +289,7 @@ function showFeeJcw3St(){
   
   miniCar[0].ten="Mini JCW CLUBMAN";
   miniCar[0].gia = 2329000000;
-  miniCar[0].phiTruocBa=miniCar[0].gia*10/100;
+  miniCar[0].phiTruocBa=miniCar[0].gia*12/100;
   miniCar[0].phiSuDung= 1560000;
   miniCar[0].phiBaoHiem= 480000;
   miniCar[0].phiDangKi= 20000000;
@@ -323,7 +323,7 @@ function showFeeCountrySt(){
   
   miniCar[0].ten="Mini JCW CONVERTIBLE";
   miniCar[0].gia = 2699000000;
-  miniCar[0].phiTruocBa=miniCar[0].gia*10/100;
+  miniCar[0].phiTruocBa=miniCar[0].gia*12/100;
   miniCar[0].phiSuDung= 1560000;
   miniCar[0].phiBaoHiem= 480000;
   miniCar[0].phiDangKi= 20000000;
@@ -357,7 +357,7 @@ function showFeeCountryH(){
   
   miniCar[0].ten="Mini JCW COUNTRYMAN";
   miniCar[0].gia = 2719000000;
-  miniCar[0].phiTruocBa=miniCar[0].gia*10/100;
+  miniCar[0].phiTruocBa=miniCar[0].gia*12/100;
   miniCar[0].phiSuDung= 1560000;
   miniCar[0].phiBaoHiem= 480000;
   miniCar[0].phiDangKi= 20000000;
