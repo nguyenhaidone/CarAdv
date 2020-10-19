@@ -214,11 +214,20 @@ html {
   background: url("../img/background.jpg") repeat fixed 100%;
   background-size: cover;
 }
+.introduction div{
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .introduction div .img-desc {
   font-size: 35px;
   font-weight: 600;
   color: white;
   float: left;
+}
+
+.introduction div .img-introduc img{
+  width:100%;
 }
 .introduction div {
   display: flex;
@@ -712,4 +721,5 @@ html {
   .hotline-bar {
     display: none;
   }
+
 }
