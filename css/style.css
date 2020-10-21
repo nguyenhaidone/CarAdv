@@ -137,37 +137,39 @@ html {
 }
 
 .social-network .face-icon {
-  background-color: rgb(36, 127, 248);
-  color: #ffffff;
+  background-color: white;
+  color: rgb(36, 127, 248);
   transition: all ease 0.4s;
 }
 
 .social-network .face-icon:hover {
-  background-color: white;
-  color: rgb(36, 127, 248);
+  
+  background-color: rgb(36, 127, 248);
+  color: #ffffff;
 }
 .social-network .mes-icon {
-  background-color: rgb(0, 128, 246);
-  color: #ffffff;
+  
+  background-color: white;
+  color: rgb(0, 128, 246);
   transition: all ease 0.4s;
 }
 .social-network .mes-icon:hover {
-  background-color: white;
-  color: rgb(0, 128, 246);
+  background-color: rgb(0, 128, 246);
+  color: #ffffff;
 }
 .social-network .insta-icon {
   transition: all ease 0.4s;
+  color: rgb(109, 31, 194);
+  background-color: white;
+}
+.social-network .insta-icon:hover {
+  background-image: none;
   color: #ffffff;
   background-image: linear-gradient(
     to bottom,
     rgb(109, 31, 194),
     rgb(247, 210, 116)
   );
-}
-.social-network .insta-icon:hover {
-  background-color: white;
-  background-image: none;
-  color: rgb(109, 31, 194);
 }
 .social-network .google-map-icon {
   transition: all ease 0.4s;
@@ -189,12 +191,13 @@ html {
 }
 .social-network .youtube-icon {
   transition: all ease 0.4s;
-  color: #ffffff;
-  background-color: rgb(255, 0, 0);
-}
-.social-network .youtube-icon:hover {
   color: rgb(255, 0, 0);
   background-color: white;
+}
+.social-network .youtube-icon:hover {
+  
+  color: #ffffff;
+  background-color: rgb(255, 0, 0);
 }
 .move-on-top {
   position: fixed;
@@ -220,12 +223,16 @@ html {
 }
 
 .introduction div .img-desc {
+  width: 50%;
   font-size: 35px;
   font-weight: 600;
   color: white;
   float: left;
 }
 
+.introduction div .img-introduc{
+  width: 50%;
+}
 .introduction div .img-introduc img{
   width:100%;
 }
