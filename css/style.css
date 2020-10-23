@@ -714,7 +714,8 @@ html {
   padding: 20px;
   border: none;
   color: black;
-  background-color: white;
+  background-color: rgb(224, 224, 224);
+
   font-size: 15px;
   font-weight: 500;
   /* border-radius: 20px; */
@@ -799,5 +800,16 @@ html {
   .hotline-bar {
     display: none;
   }
-
+  .overview{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .para .container .tbl-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
