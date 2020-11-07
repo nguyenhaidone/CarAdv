@@ -141,28 +141,28 @@ html {
   color: rgb(36, 127, 248);
   transition: all ease 0.4s;
 }
-
+/* 
 .social-network .face-icon:hover {
   
   background-color: rgb(36, 127, 248);
   color: #ffffff;
-}
+} */
 .social-network .mes-icon {
   
   background-color: white;
   color: rgb(0, 128, 246);
   transition: all ease 0.4s;
 }
-.social-network .mes-icon:hover {
+/* .social-network .mes-icon:hover {
   background-color: rgb(0, 128, 246);
   color: #ffffff;
-}
+} */
 .social-network .insta-icon {
   transition: all ease 0.4s;
   color: rgb(109, 31, 194);
   background-color: white;
 }
-.social-network .insta-icon:hover {
+/* .social-network .insta-icon:hover {
   background-image: none;
   color: #ffffff;
   background-image: linear-gradient(
@@ -170,35 +170,35 @@ html {
     rgb(109, 31, 194),
     rgb(247, 210, 116)
   );
-}
+} */
 .social-network .google-map-icon {
   transition: all ease 0.4s;
   color: #ffffff;
   background-color: rgb(0, 189, 28);
 }
-.social-network .google-map-icon:hover {
+/* .social-network .google-map-icon:hover {
   background-color: white;
   color: rgb(0, 189, 28);
-}
+} */
 .social-network .google-icon {
   transition: all ease 0.4s;
   color: #ffffff;
   background-color: rgb(221, 78, 64);
 }
-.social-network .google-icon:hover {
+/* .social-network .google-icon:hover {
   background-color: #ffffff;
   color: rgb(221, 78, 64);
-}
+} */
 .social-network .youtube-icon {
   transition: all ease 0.4s;
   color: rgb(255, 0, 0);
   background-color: white;
 }
-.social-network .youtube-icon:hover {
+/* .social-network .youtube-icon:hover {
   
   color: #ffffff;
   background-color: rgb(255, 0, 0);
-}
+} */
 .move-on-top {
   position: fixed;
   bottom: 60px;
@@ -812,4 +812,5 @@ html {
     justify-content: center;
     align-items: center;
   }
+
 }
