@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mini Cooper Việt Nam</title>
     <link rel="stylesheet" href="../css/style.css" />
+
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap"
       rel="stylesheet"
@@ -62,9 +63,7 @@
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="../html/introduction.html"
-                >Giới thiệu</a
-              >
+              <a class="nav-link" href="../html/introduction.html">Giới thiệu</a>
             </li>
             <li class="nav-item dropdown">
               <a
@@ -106,9 +105,7 @@
               <a class="nav-link" href="../html/Price-tag.html">Bảng giá</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="../html/signup.html"
-                >Đăng kí lái thử tại nhà</a
-              >
+              <a class="nav-link" href="../html/signup.html">Đăng kí lái thử tại nhà</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="../html/calc.html"
@@ -121,9 +118,9 @@
 
             <li class="nav-item">
               <a class="nav-link" href="../html/contact.html">Liên hệ</a>
-            </li>
+            </li>            
           </ul>
-
+          
           <!-- <form class="form-inline my-2 my-lg-0">
             <input
               class="form-control mr-sm-2"
@@ -141,94 +138,170 @@
 
     //carousel
 
-    <h1
-      style="
-        font-weight: 400;
-        text-transform: uppercase;
-        text-align: center;
-        margin: 20px;
-        margin-top: 120px;
-        color: orange;
-      "
-    >
-      Đăng kí tư vấn-lái thử
-    </h1>
-    <div class="send-form">
-      <div class="container">
-        <div class="intro">
-          <p>
-            Những lời ca ngợi về cảm giác lái ấn tượng bên trong nội thất cá
-            tính của MINI khiến bạn tò mò muốn lái thử? Đừng do dự, hãy để lại
-            thông tin, chúng tôi sẽ liên lạc với bạn trong thời gian sớm nhất!
-          </p>
-          <!-- <img src="../img/s3-door/mini_3_door_51-1400x788.jpg" alt=""> -->
-        </div>
-        <form
-          action="https://formspree.io/phanminihanoi@gmail.com"
-          method="POST"
-        >
-          <div class="main">
-            <div>
-              <label> Tên quý khách hàng: </label><br />
-              <input type="text" name="name" placeholder="Tên quý khách hàng" />
-              <br /><label>Email: </label> <br /><input
-                type="email"
-                name="email"
-                placeholder="Email"
-              />
-              <br /><label>Số điện thoại:</label><br /><input
-                type="text"
-                name="phone-number"
-                placeholder="Số điện thoại"
-              />
-            </div>
-            <div>
-              <br /><label>Yêu cầu lái thử xe: </label>
-              <br />
-              <div class="option">
-                <input
-                  type="checkbox"
-                  name="vehicle"
-                  value="Mini 3 Door"
-                  id=""
-                />Mini 3 Door <br />
-                <input
-                  type="checkbox"
-                  name="vehicle"
-                  value="Mini 5 Door"
-                  id=""
-                />Mini 5 Door <br />
-                <input
-                  type="checkbox"
-                  name="vehicle"
-                  value="Mini Clubman"
-                  id=""
-                />Mini Clubman <br />
-                <input
-                  type="checkbox"
-                  name="vehicle"
-                  value="Mini Convertible"
-                  id=""
-                />Mini Convertible <br />
-                <input
-                  type="checkbox"
-                  name="vehicle"
-                  value="Mini Contryman"
-                  id=""
-                />Mini Countryman <br />
+    <div class="container" style="margin-top: 70px;">
+      <div class="title">
+        <div class="dot"></div>
+        <div class="name">Tin tức</div>
+        <div class="dot"></div>
+      </div>
+    </div>
+
+    <div id="car-list" class="container">
+      <div class="card-list">
+        <a href="../html/Price-tag.html">
+          <div class="news card-1">
+            <div class="card" >
+              <img src="../img/news-1.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <p class="card-text" style="text-decoration: none">
+                  Bảng giá
+                </p>
               </div>
             </div>
           </div>
-          <textarea
-            type="text"
-            name="message"
-            placeholder="Qúy vị có yêu cầu gì thêm không(Cách thức liên lạc, giá cả,...)"
-            style="width: 500px; height: 100px"
-          ></textarea>
-          <br />
-          <input type="submit" value="Send" class="btnSubmit" />
-        </form>
+        </a>
+        <a href="../html/news/news-1.html">
+          <div class="news card-2">
+            <div class="card" >
+              <img src="../img/2020-mini-u-s-lineup-lead-image-711x400.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <p class="card-text">
+                  Xe mini phiên bản mới 2019 vừa về Việt Nam có gì đặc biệt?
+                </p>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a href="../html/news/news-2.html">
+          <div class="news card-3">
+            <div class="card" >
+              <img src="../img/news-3.jpg" 
+              class="card-img-top country-man-jwc" 
+               alt="..." />
+              <div class="card-body">
+                <p class="card-text">
+                  Mini John Cooper Works: Câu chuyện về một huyền thoại
+                </p>
+              </div>
+            </div>
+          </div>
+        </a>
+        <!-- <a href="../html/s-club-lci.html">
+          <div class="card-4">
+            <div class="card" >
+              <img src="../img/cosySec4.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <p class="card-text">
+                  MINI CLUBMAN S LCI:
+                  <br />
+                  2.309.000.000 VND<br /> ( Chưa Bao Gồm KM )
+                </p>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a href="../html/convertible-lci.html">
+          <div class="card-5">
+            <div class="card" >
+              <img src="../img/mini sidewalk.png" class="card-img-top" alt="..." style="
+              padding-bottom: 37px;
+              padding-top: 14px;
+              padding-left: 14px;
+              padding-right: 14px;"/>
+              <div class="card-body">
+                <p class="card-text side-walk" >
+                  MINI SIDEWALK 2021 LIMITED EDITION:
+                  <br />
+                  Booking now<br /> ( 4 chiếc duy nhất Đông Nam Á )
+                </p>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a href="../html/mini-one.html">
+          <div class="card-6">
+            <div class="card" >
+              <img src="../img/cosySec.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <p class="card-text">
+                  MINI ONE LCI:
+                  <br />
+                  1.479.000.000 VND<br /> ( Chưa Bao Gồm KM )
+                </p>
+              </div>
+            </div>
+          </div>
+        </a>
+        
+        <a href="../html/mini-john-cooper.html">
+          <div class="card-7">
+            <div class="card" >
+              <img src="../img/cosySec6.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <p class="card-text">
+                  MINI COOPER S 3 DOORS JCW:<br />
+                  2.189.000.000 VND
+                  <br />
+                  ( Chưa Bao Gồm KM )
+                </p>
+              </div>
+            </div>
+          </div>
+        </a>
+        <div class="card-8">
+          <div class="card" >
+            <img src="../img/USC70MNC132C021001.png" class="card-img-top" alt="..." style="padding-top: 8px;
+            padding-bottom: 20px;"/>
+            <div class="card-body">
+              <p class="card-text">
+                MINI CLUBMAN JCW: 
+                <br />
+                2.499.000.000 VND<br /> ( Chưa bao gồm KM )
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="card-9">
+          <div class="card" >
+            <img src="../img/f57-cooper-jcw-line-up.png" class="card-img-top" alt="..." style="padding-bottom: 16px;
+            padding-top: 4px;"/>
+            <div class="card-body">
+              <p class="card-text">
+                MINI CONVERTIBLE JCW: 
+                <br />
+                2.359.000.000 VND<br /> ( Chưa bao gồm KM)
+              </p>
+            </div>
+          </div>
+        </div> -->
+        </div>
       </div>
+    </div>
+
+    <div class="social-network">
+      <a href="https://www.facebook.com/phanluxury98" target="_blank" style="text-decoration: none;">
+        <div class="face-icon">
+          <i class="fab fa-facebook-f"></i>
+        </div>
+      </a>
+      <a href="https://www.messenger.com/t/phanluxury98" target="_blank" style="text-decoration: none;">
+        <div class="mes-icon">
+          <i class="fab fa-facebook-messenger"></i>
+        </div>
+      </a>
+      <a href=" https://www.instagram.com/phanluxury98/" target="_blank" style="text-decoration: none;">
+        <div class="insta-icon">
+          <i class="fab fa-instagram"></i>
+        </div>
+      </a>
+      <a
+        href="https://www.youtube.com/channel/UCGDdpmb9CR2MHwzHAMzXWgA/?fbclid=IwAR3TLNgZYvHNjHSkxm-FgsN9qLK8Pd8TreAR2Pv2Y9YzaGeeFGCgNd09ooM"
+        target="_blank"
+        style="text-decoration: none;">
+        <div class="youtube-icon">
+          <i class="fab fa-youtube"></i>
+        </div>
+      </a>
     </div>
     <div class="move-on-top">
       <a href="#"><i class="fas fa-arrow-circle-up"></i></a>
@@ -243,45 +316,7 @@
         </div>
       </div>
     </div>
-    <div class="social-network">
-      <a
-        href="https://www.facebook.com/phanluxury98"
-        target="_blank"
-        style="text-decoration: none"
-      >
-        <div class="face-icon">
-          <i class="fab fa-facebook-f"></i>
-        </div>
-      </a>
-      <a
-        href="https://www.messenger.com/t/phanluxury98"
-        target="_blank"
-        style="text-decoration: none"
-      >
-        <div class="mes-icon">
-          <i class="fab fa-facebook-messenger"></i>
-        </div>
-      </a>
-      <a
-        href=" https://www.instagram.com/phanluxury98/"
-        target="_blank"
-        style="text-decoration: none"
-      >
-        <div class="insta-icon">
-          <i class="fab fa-instagram"></i>
-        </div>
-      </a>
-      <a
-        href="https://www.youtube.com/channel/UCGDdpmb9CR2MHwzHAMzXWgA/?fbclid=IwAR3TLNgZYvHNjHSkxm-FgsN9qLK8Pd8TreAR2Pv2Y9YzaGeeFGCgNd09ooM"
-        target="_blank"
-        style="text-decoration: none"
-      >
-        <div class="youtube-icon">
-          <i class="fab fa-youtube"></i>
-        </div>
-      </a>
-    </div>
-    <!-- <a href="#" class="gotobtn"><i class="fa fa-arrow-circle-up" style="font-size:48px"></i></a> -->
+    
     <div
       class="zalo-chat-widget"
       data-oaid="2634438477350046962"
@@ -298,18 +333,14 @@
         <div class="hotline-phone-ring-circle"></div>
         <div class="hotline-phone-ring-circle-fill"></div>
         <div class="hotline-phone-ring-img-circle">
-          <a href="tel:0987654321" class="pps-btn-img">
-            <img
-              src="https://nguyenhung.net/wp-content/uploads/2019/05/icon-call-nh.png"
-              alt="Gọi điện thoại"
-              width="50"
-            />
-          </a>
+        <a href="tel:0987654321" class="pps-btn-img">
+          <img src="https://nguyenhung.net/wp-content/uploads/2019/05/icon-call-nh.png" alt="Gọi điện thoại" width="50">
+        </a>
         </div>
       </div>
       <div class="hotline-bar">
         <a href="tel:0984581159">
-          <span class="text-hotline">0984581159</span>
+          <span class="text-hotline">0984.581.159</span>
         </a>
       </div>
     </div>
@@ -332,18 +363,9 @@
             >: số 68 Lê Văn Lương, Nhân Chính, Hà Nội.</a
           >
           <a href="tel:0984581159"><strong>Hotline : </strong>0984 581 159</a>
-        </div>
+          </div>
         <div class="footer-col-3">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.7801030365968!2d105.7990195!3d21.00145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135addc0362f6d1%3A0xfa0312fceac91efc!2zTUlOSSBMw6ogVsSDbiBMxrDGoW5n!5e0!3m2!1svi!2s!4v1604675859875!5m2!1svi!2s"
-            width="250"
-            height="250"
-            frameborder="0"
-            style="border: 0"
-            allowfullscreen=""
-            aria-hidden="false"
-            tabindex="0"
-          ></iframe>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.7801030365968!2d105.7990195!3d21.00145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135addc0362f6d1%3A0xfa0312fceac91efc!2zTUlOSSBMw6ogVsSDbiBMxrDGoW5n!5e0!3m2!1svi!2s!4v1604675859875!5m2!1svi!2s" width="250" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
         </div>
       </div>
     </div>
