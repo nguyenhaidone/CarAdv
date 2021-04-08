@@ -205,6 +205,17 @@ html {
   right: 0;
   margin: 20px;
 }
+.zola{
+  position: fixed;
+  bottom: 78px;
+  right: 78px;
+  width: 50px;
+  height: 50px;
+  
+}
+.zola a{
+  
+}
 .move-on-top i {
   font-size: 50px;
   cursor: pointer;
@@ -309,9 +320,6 @@ html {
   transition: all ease 0.2s;
 }
 
-.footer .container div a:hover {
-  font-weight: 400;
-}
 
 /*landing page*/
 
@@ -739,12 +747,19 @@ html {
 }
 /*update*/
 #side-walk{
+  padding-bottom: 32px;
+}
+.side-walk{
   font-size:15px;
 }
 #country-man-jwc{
   padding-bottom:37px ;
   padding-top:32px ;
   padding-right: 25px;           
+}
+#clubman-jcw{
+  padding-top: 8px;
+  padding-bottom: 20px;
 }
 /* .overview .price-and-overview .btn-order a:nth-child(1) button:hover{
   color: white;
@@ -805,6 +820,7 @@ html {
     -webkit-transform: rotate(0) scale(1) skew(1deg);
   }
 }
+
 @media (max-width: 900px){
   .social-network{
     display: none;
@@ -856,7 +872,7 @@ html {
   }
   .title .name {
     font-weight: 600;
-    font-size: 25px;
+    font-size: 20px;
     margin: 10px;
     color: black;
     text-transform: uppercase;
@@ -867,14 +883,20 @@ html {
     text-decoration: none;
     color: rgba(0, 0, 1);
   }
-  .card-list .card {
+  .card-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  /* .card-list .card {
     margin: 10px;
     width: 100px;
     border-radius: 10px;
-    /* border-top: none; */
+    border: 1px solid rgb(240, 240, 240);
     transition: all ease 0.5s;
-  }
+  } */
   .card-list .card .card-body .card-text {
+    font-size: 9px;
     font-weight: 500;
     text-align: center;
   }
@@ -886,5 +908,61 @@ html {
   }
   .card-img-top .country-man-jwc{
     padding: 10px;
+  }
+  .overview .img-overview{
+    width: 100%;
+  }
+  .overview .price-and-overview{
+    width: 100%;
+  }
+  .overview .price-and-overview .btn-order {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .overview .price-and-overview .btn-order a:nth-child(1) {
+    /* text-decoration: none; */
+    width: 100%;
+    outline: none;
+  }
+  .overview .price-and-overview .btn-order a:nth-child(2) {
+    /* text-decoration: none; */
+    width: 100%;
+    outline: none;
+  }
+  .para .container .tbl-content {
+    display: none;
+  }
+  #country-man-jwc {
+    padding:2px;
+  }
+  #side-walk {
+    padding-bottom: 0px;
+  } 
+  #clubman-jcw{
+    padding: 0px;
+  }
+  .introduction div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    /* flex-wrap: wrap; */
+  }
+  .introduction div div{
+    width: 100%;
+  }
+  .introduction div div p{
+    font-size: 18px;
+    width: 100%;
+  }
+  nav div .navbar-brand img{
+    width: 40%;
+  }
+  #navbar{
+    padding: 1px;
+  }
+  .navbar-light .navbar-toggler{
+    border:none;
   }
 }
